@@ -1,13 +1,75 @@
 body {
+    position: relative;
     color: #d0d6f9;
+    margin: 0ch;
+    font-family: 'Barlow Condensed', sans-serif;
+    
 }
 
-.tab {
+.backround {
+    position: absolute;
+    width: 100%;
+}
+
+.bold {
     display: inline-block;
-    width: 40%;
+    width: 1.2rem;
+    font-weight: 600;
 }
 
-h2{
+
+
+.body {
+    position: absolute;
+    
+}
+
+.tab-bar {
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    height: 90px;
+}
+
+.hede {
+    position: absolute;
+    left: 20px;
+    top: 42px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.tab-hr {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    top: 60px;
+    left: 5%; 
+}
+
+.menu-back {
+    display: inline-block;
+    background-color: #0b0d177c;
+    width: 60%;
+    text-align: center;
+    margin: 0px 0px 0px auto;
+    height: 96px;
+    position: absolute;
+    right: 0cm;
+    top: 20px; 
+    padding-right: 50px;
+
+}
+
+.menu {
+    display: inline-block;
+    max-width: 200px;
+    width: auto;
+    margin-top: 35px;
+}
+
+h2 {
     display: inline-block;
 }
 
