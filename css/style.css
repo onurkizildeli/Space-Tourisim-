@@ -1,0 +1,17 @@
+body {
+    color: #d0d6f9;
+}
+
+.tab {
+    display: inline-block;
+    width: 40%;
+}
+
+h2{
+    display: inline-block;
+}
+
+.crew-link {
+    border-style: none;
+    height: 12px;
+}
