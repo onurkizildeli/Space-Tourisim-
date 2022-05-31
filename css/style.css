@@ -3,11 +3,11 @@ body {
     color: #d0d6f9;
     margin: 0ch;
     font-family: 'Barlow Condensed', sans-serif;
-    
 }
 
 .backround {
     position: absolute;
+    left: 0cm;
     width: 100%;
 }
 
@@ -17,11 +17,9 @@ body {
     font-weight: 600;
 }
 
-
-
 .body {
-    position: absolute;
-    
+    position: absolute;   
+    width: 100%;
 }
 
 .tab-bar {
@@ -31,9 +29,9 @@ body {
     height: 90px;
 }
 
-.hede {
+.logo {
     position: absolute;
-    left: 20px;
+    left: 42px;
     top: 42px;
     display: inline;
     vertical-align: middle;
@@ -57,23 +55,63 @@ body {
     height: 96px;
     position: absolute;
     right: 0cm;
+    left: 0px;
     top: 20px; 
     padding-right: 50px;
-
 }
 
 .menu {
     display: inline-block;
     max-width: 200px;
-    width: auto;
+    width: 200px;
     margin-top: 35px;
-}
-
-h2 {
-    display: inline-block;
 }
 
 .crew-link {
     border-style: none;
     height: 12px;
+}
+
+.index-main-container {
+    position: absolute;
+    top: 387px;
+    width: 450px;
+}
+
+.explore {
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    position: absolute;
+    top: 495px;
+    right: 20%;
+}
+
+.alt-container {
+    display: block;
+    position: relative;
+    padding: 0 10% 0 10%;
+    margin-top: 135px;
+    width: 80%;
+    height: 900px;
+}
+
+.sixtyfive {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1,625 rem;
+    font-style: unset;
+    font-weight: 400;
+}
+
+.plantes {
+    width: 483px;
+    height: 487px;
+    text-align: left;
+}
+
+.dest {
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    margin: 0 12,5px;
 }
