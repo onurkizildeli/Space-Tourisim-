@@ -7,6 +7,7 @@ body {
 
 .backround {
     position: absolute;
+    top: 0;
     left: 0cm;
     width: 100%;
 }
@@ -104,6 +105,11 @@ body {
 }
 
 .plantes {
+    position: absolute;
+    right: 0%;
+    top: 200px;
+    margin-right: 10%;
+    display: inline-block;
     width: 483px;
     height: 487px;
     text-align: left;
@@ -114,4 +120,18 @@ body {
     display: inline-block;
     width: 20%;
     margin: 0 12,5px;
+}
+
+.data-container {
+    display: inline-block;
+    width: 160px;
+}
+
+.planet {
+    margin-left: 10%;
+    position: absolute;
+    top: 80px;
+    display: inline-block;
+    width: 516px;
+    height: 570px;
 }
