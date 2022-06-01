@@ -135,3 +135,16 @@ body {
     width: 516px;
     height: 570px;
 }
+
+.text-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+}
+
+.crew-img {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
